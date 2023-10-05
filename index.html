@@ -13,7 +13,7 @@
       <label id="name-label">Name<input required id="name" type="text" placeholder="Enter your name" /></label>
       <label id="email-label">Email<input required id="email" type="email" placeholder="Enter your Email" /></label>
       <label id="number-label">Age (optional)</label><input min="4" max="120" id="number" type="number" placeholder="Age" /></label>
-    <br>
+    <div class="content1">
     <select name="dropdown" id="dropdown">
       <option>Nissan</option>
       <option>Toyota</option>
@@ -24,19 +24,23 @@
       <option>Ford</option>
       <option>Lamborghini</option>
     </select>
+    </div>
+    <div class="radio-buttons">
     <input type="radio" name="new" id="new" value="one">2020-current
-    <input type="radio" name="medium-new" id="medium-new" value="two">2010-2019
-    <input type="radio" name="medium-old" id="medium-old" value="three">2000-2009
-    <input type="radio" name="old" id="old" value="four">1990-1999
-<br>
+    <input type="radio" name="new" id="medium-new" value="two">2010-2019
+    <input type="radio" name="new" id="medium-old" value="three">2000-2009
+    <input type="radio" name="new" id="old" value="four">1990-1999
+    </div>
+    <div class="checkboxes">
     <p>Do you own the vehicle or are you interested in buying?
       Maybe both?</p>
     <input type="checkbox" name="just-seeing" id="just-seeing" value="looking">Have the vehicle
     <input type="checkbox" name="Wanna=buy" id="Wanna=buy" value="buying">want to buy this vehicle
-<br>    
+    </div>
     <textarea id="reviews" name="reviews" rows="3" column="30">Let us know why you chose the vehicle that you did choose</textarea>
-<br>    
+    <div class="submit">
     <button type="sumbit" id="submit">Submit</button>
-    </form>
+    </div>
+   </form>
 </body>
 </html>
