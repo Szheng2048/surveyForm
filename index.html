@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <h1 id="title">What is your favorite type of vehicle???</h1>  
+    <p id="description">This is a survey to tell us about your favorite types of vehicle and why you like it so much!!</p>
+    <form id="survey-form">
+      <label id="name-label">Name<input required id="name" type="text" placeholder="Enter your name" /></label>
+      <label id="email-label">Email<input required id="email" type="email" placeholder="Enter your Email" /></label>
+      <label id="number-label">Age (optional)</label><input min="4" max="120" id="number" type="number" placeholder="Age" /></label>
+    <br>
+    <select name="dropdown" id="dropdown">
+      <option>Nissan</option>
+      <option>Toyota</option>
+      <option>Honda</option>
+      <option>Subaru</option>
+      <option>Chevy</option>
+      <option>Corvette</option>
+      <option>Ford</option>
+      <option>Lamborghini</option>
+    </select>
+    <input type="radio" name="age" id="new" value="one">2020-current
+    <input type="radio" name="age" id="medium-new" value="two">2010-2019
+    <input type="radio" name="age" id="medium-old" value="three">2000-2009
+    <input type="radio" name="age" id="old" value="four">1990-1999
+<br>
+    <p>Do you own the vehicle or are you interested in buying?
+      Maybe both?</p>
+    <input type="checkbox" name="seein" id="just-seeing" value="looking">Have the vehicle
+    <input type="checkbox" name="seein" id="Wanna=buy" value="buying">want to buy this vehicle
+<br>    
+    <textarea id="reviews" name="reviews" rows="3" column="30">Let us know why you chose the vehicle that you did choose</textarea>
+<br>    
+    <button type="sumbit" id="submit">Submit</button>
+    </form>
+</body>
+</html>
